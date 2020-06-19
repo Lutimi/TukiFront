@@ -87,7 +87,7 @@ export const configuration = {
         {title: 'Facebook', target: '_blank', username: 'jagmohan', icon: 'facebook'},
         {title: 'Google+', target: '_blank', username: '+jagmohan', icon: 'google-plus'},
         {title: 'Twitter', target: '_blank', username: 'jagmohan', icon: 'twitter'},
-        {title: 'Instagram', target: '_blank', username: 'jagmohan', icon: 'instagram'},
+        {title: 'Instagram', target: '_blank', username: 'tuki_aventuras', icon: 'instagram'},
         {title: 'Behance', target: '_blank', username: 'jagmohan', icon: 'behance'},
     ],
     blog: {

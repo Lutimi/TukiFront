@@ -11,9 +11,13 @@ export class NavmenuComponent {
 @Input() menuOpen: boolean;
 @Output() menuStatus: EventEmitter<any> = new EventEmitter<any>();
 
-  constructor() { }
+  constructor() {
+console.log(this.menuStatus)
+
+   }
 
   toggleMenu() {
+
     this.menuStatus.emit(!this.menuOpen);
   }
 
