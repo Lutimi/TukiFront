@@ -18,7 +18,7 @@ export class InMemoryDataService implements InMemoryDbService {
     const pages = [
       {id: 'intro',
         tagline: 'SUCESS',
-        title: 'How We Help You To Sell Your Product',
+        title: 'Como Ganar Puntos Con las rutas tuki?',
         description: 'This is introduction!',
       },
       {id: 'clients',
@@ -68,7 +68,7 @@ export class InMemoryDataService implements InMemoryDbService {
 
     const features = [
       {id: 1, icon: 'html5', title: 'HTML5 & CSS3',
-      description: 'Has ne tritani atomorum conclusionemque, in dolorum volumus cotidieque eum. At vis choro neglegentur iudico'},
+      description: 'ya'},
       {id: 2, icon: 'bolt', title: 'Easy to Use',
       description: 'Cu vero ipsum vim, doctus facilisi sea in. Eam ex falli honestatis repudiandae, sit detracto mediocrem disputationi'},
       {id: 3, icon: 'tablet', title: 'Fully Responsive',
@@ -94,7 +94,7 @@ export class InMemoryDataService implements InMemoryDbService {
       {id: 4, title: 'Gallery', link: '/gallery', outlet: ''},
       {id: 5, title: 'Testimonials', link: '/testimonials', outlet: ''},
       {id: 6, title: 'Clients', link: '/clients', outlet: ''},
-      {id: 7, title: 'Pricing', link: '/pricing', outlet: ''},
+      {id: 7, title: 'Tukipoints', link: '/pricing', outlet: ''},
       {id: 8, title: 'Blog', link: '/blog', outlet: ''},
       {id: 9, title: 'Contact Us', link: 'contactus', outlet: 'popup'},
       {id: 10, title: 'Subscribe', link: 'subscribe', outlet: 'popup'},
@@ -155,14 +155,14 @@ const plans = [
   tutorials: 'Tutorials', support: 'Forum Support', updates: '1 year free updates',
   buttontext: 'Buy Now', buttonlink: '#', featured: false
   },
-  {id: 2, title: 'STUDENT', subtitle: 'Most popular choice',
-  description: 'Best Plan for students', price: '29', currency: '₹',
+  {id: 2, title: 'rutas', subtitle: 'Most popular choice',
+  description: 'Best Plan for students', price: '400', currency: 's/',
   downloads: '15 Downloads', extensions: '5 Extensions',
   tutorials: 'Tutorials with files', support: 'Forum Support', updates: '2 year free updates',
   buttontext: 'Buy Now', buttonlink: '#', featured: true
   },
-  {id: 3, title: 'BUSINESS', subtitle: 'For the whole team',
-  description: 'Best plan for business', price: '49', currency: '₹',
+  {id: 3, title: 'ruta trujillo', subtitle: 'For the whole team',
+  description: 'Best plan for business', price: '100', currency: '₹',
   downloads: 'Unlimited Downloads', extensions: 'Unlimited Downloads',
   tutorials: 'HD Video Tutorials', support: 'Chat Support', updates: 'Lifetime free updates',
   buttontext: 'Buy Now', buttonlink: '#', featured: false
@@ -171,9 +171,16 @@ const plans = [
 
 const websites = [
   {id: 1, link: 'https://facebook.com/', title: 'Facebook', target: '_blank', username: 'Tukiviajes', icon: 'facebook'},
+<<<<<<< HEAD
   {id: 2, link: 'https://instagram.com/', title: 'Instagram', target: '_blank', username: 'tuki_aventuras', icon: 'instagram'},
   {id: 3, link: 'https://twitter.com/', title: 'Twitter', target: '_blank', username: 'tuki_viajes', icon: 'twitter'},
 
+=======
+  {id: 2, link: 'https://googleplus.com/', title: 'Google+', target: '_blank', username: '+jagmohan', icon: 'google-plus'},
+  {id: 3, link: 'https://twitter.com/', title: 'Twitter', target: '_blank', username: 'jagmohan', icon: 'twitter'},
+  {id: 4, link: 'https://instagram.com/', title: 'Instagram', target: '_blank', username: 'admister_in', icon: 'instagram'},
+  {id: 5, link: 'https://behance.com/', title: 'Behance', target: '_blank', username: 'jagmohan', icon: 'behance'},
+>>>>>>> develop
 ];
 
     return {users, posts, menu, pages, features, images, companies, feedbacks, plans, websites};
