@@ -32,6 +32,7 @@ import { TestimonialModule } from './testimonial/testimonial.module';
 import { PricingModule } from './pricing/pricing.module';
 import { BlogModule } from './blog/blog.module';
 import { WebsiteBlockComponent } from './website-block/website-block.component';
+import { RutasComponent } from './rutas/rutas.component';
 
 
 
@@ -48,6 +49,7 @@ import { WebsiteBlockComponent } from './website-block/website-block.component';
     NavmenuComponent,
     SubscribeComponent,
     WebsiteBlockComponent,
+    RutasComponent,
   ],
   imports: [
     BrowserModule,

@@ -9,7 +9,7 @@ export class InMemoryDataService implements InMemoryDbService {
   constructor() { }
   createDb() {
     const users = [
-      { id: 11, firstName: 'rahul', lastName: 'gupta', email: 'test123@gmail.com', password: 'welcome',
+      { id: 11, firstName: 'Juan', lastName: 'Perez', email: 'test123@gmail.com', password: 'welcome',
     bio: 'this is my bio', role: 'admin', image: 'user-1.jpg' },
       { id: 12, firstName: 'rohan', lastName: 'gupta', email: 'test345@gmail.com', password: 'welcome',
       bio: 'i am a subscriber', role: 'subscriber', image: 'user-2.jpg' }
@@ -170,11 +170,10 @@ const plans = [
 ];
 
 const websites = [
-  {id: 1, link: 'https://facebook.com/', title: 'Facebook', target: '_blank', username: 'jagmohan', icon: 'facebook'},
-  {id: 2, link: 'https://googleplus.com/', title: 'Google+', target: '_blank', username: '+jagmohan', icon: 'google-plus'},
-  {id: 3, link: 'https://twitter.com/', title: 'Twitter', target: '_blank', username: 'jagmohan', icon: 'twitter'},
-  {id: 4, link: 'https://instagram.com/', title: 'Instagram', target: '_blank', username: 'admister_in', icon: 'instagram'},
-  {id: 5, link: 'https://behance.com/', title: 'Behance', target: '_blank', username: 'jagmohan', icon: 'behance'},
+  {id: 1, link: 'https://facebook.com/', title: 'Facebook', target: '_blank', username: 'Tukiviajes', icon: 'facebook'},
+  {id: 2, link: 'https://instagram.com/', title: 'Instagram', target: '_blank', username: 'tuki_aventuras', icon: 'instagram'},
+  {id: 3, link: 'https://twitter.com/', title: 'Twitter', target: '_blank', username: 'tuki_viajes', icon: 'twitter'},
+
 ];
 
     return {users, posts, menu, pages, features, images, companies, feedbacks, plans, websites};
