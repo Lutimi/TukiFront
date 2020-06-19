@@ -171,16 +171,11 @@ const plans = [
 
 const websites = [
   {id: 1, link: 'https://facebook.com/', title: 'Facebook', target: '_blank', username: 'Tukiviajes', icon: 'facebook'},
-<<<<<<< HEAD
   {id: 2, link: 'https://instagram.com/', title: 'Instagram', target: '_blank', username: 'tuki_aventuras', icon: 'instagram'},
   {id: 3, link: 'https://twitter.com/', title: 'Twitter', target: '_blank', username: 'tuki_viajes', icon: 'twitter'},
 
-=======
-  {id: 2, link: 'https://googleplus.com/', title: 'Google+', target: '_blank', username: '+jagmohan', icon: 'google-plus'},
-  {id: 3, link: 'https://twitter.com/', title: 'Twitter', target: '_blank', username: 'jagmohan', icon: 'twitter'},
-  {id: 4, link: 'https://instagram.com/', title: 'Instagram', target: '_blank', username: 'admister_in', icon: 'instagram'},
-  {id: 5, link: 'https://behance.com/', title: 'Behance', target: '_blank', username: 'jagmohan', icon: 'behance'},
->>>>>>> develop
+
+
 ];
 
     return {users, posts, menu, pages, features, images, companies, feedbacks, plans, websites};
