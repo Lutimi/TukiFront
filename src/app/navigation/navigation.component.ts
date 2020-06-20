@@ -57,6 +57,7 @@ export class NavigationComponent implements OnInit, AfterContentChecked {
       setting => {
         this.menu = setting;
         console.log(setting);
+        console.log(this.database,'string')
       }
 
     );

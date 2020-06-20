@@ -33,6 +33,7 @@ const routes: Routes = [
   { path: 'gallery', loadChildren: () => GalleryModule },
   { path: 'clients', loadChildren: () => ClientsModule },
   { path: 'pricing', loadChildren: () => PricingModule },
+  { path: 'pricing2', loadChildren: () => PricingModule },
   { path: 'subscribe', component: SubscribeComponent, outlet: 'popup' },
   { path: 'dashboard', loadChildren: () => UserDashboardModule, canActivate: [RoutegaurdService]   },
   { path: 'blog', loadChildren: () => BlogModule, canActivate: [RoutegaurdService] },
