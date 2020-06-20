@@ -18,8 +18,8 @@ export class InMemoryDataService implements InMemoryDbService {
     const pages = [
       {id: 'intro',
         tagline: 'SUCESS',
-        title: 'Como Ganar Puntos Con las rutas tuki?',
-        description: 'This is introduction!',
+        title: 'Desbloquea precios y promociones de viajes increibles',
+        description: 'Tu acompañante de viajes!',
       },
       {id: 'clients',
         tagline: 'TRUST',
@@ -27,18 +27,18 @@ export class InMemoryDataService implements InMemoryDbService {
         description: 'Our clients',
       },
       {id: 'services',
-        tagline: 'BELIEVING',
-        title: 'Focusing On What Matters Most',
-        description: 'Service Section'
+        tagline: 'Choqueriao, Cuzco',
+        title: 'Reto Semanal',
+        description: 'Cumple retos y obten promociones especiales'
       },
       {id: 'testimonials',
-        tagline: 'FEEDBACK',
+        tagline: 'Estos son nuestros',
         title: 'What our customers are saying',
         description: 'This is what our customer\'s feel about us',
       },
       {id: 'pricing',
         tagline: 'TU ELECCION',
-        title: 'Tenemos el paquete adecuado para ti',
+        title: 'Descuentos Especiales',
         description: '',
       },
       {id: 'gallery',
@@ -67,14 +67,11 @@ export class InMemoryDataService implements InMemoryDbService {
 
 
     const features = [
-      {id: 1, icon: 'html5', title: 'HTML5 & CSS3',
-      description: 'ya'},
-      {id: 2, icon: 'bolt', title: 'Easy to Use',
-      description: 'Cu vero ipsum vim, doctus facilisi sea in. Eam ex falli honestatis repudiandae, sit detracto mediocrem disputationi'},
-      {id: 3, icon: 'tablet', title: 'Fully Responsive',
-      description: 'Id porro tritani recusabo usu, eum intellegam consequuntur et. Fugit debet ea sit, an pro nemore vivendum'},
-      {id: 4, icon: 'rocket', title: 'Parallax Effect',
-      description: 'Id porro tritani recusabo usu, eum intellegam consequuntur et. Fugit debet ea sit, an pro nemore vivendum'},
+      {id: 1, icon: '', title: 'Te premia',
+      description: 'Tuki es la primer APP que te premia por salir de casa'},
+      {id: 2, icon: 'bolt', title: 'Full Descuentos',
+      description: 'Desbloquea promociones o precios especiales en locales, restaurantes y tiendas de todo el pais!'},
+     
   ];
 
   const images = [
@@ -90,11 +87,11 @@ export class InMemoryDataService implements InMemoryDbService {
     const menu = [
       {id: 1, title: 'Home', link: '/home', outlet: ''},
       {id: 2, title: 'About', link: '/about', outlet: ''},
-      {id: 3, title: 'Services', link: '/services', outlet: ''},
+      {id: 3, title: 'Retos', link: '/services', outlet: ''},
      
-      {id: 5, title: 'Testimonials', link: '/testimonials', outlet: ''},
+      {id: 5, title: 'Destinos', link: '/testimonials', outlet: ''},
      
-      {id: 7, title: 'Tukipoints', link: '/pricing', outlet: ''},
+      {id: 7, title: 'Descuentos', link: '/pricing', outlet: ''},
       {id: 8, title: 'Blog', link: '/blog', outlet: ''},
       {id: 9, title: 'Contact Us', link: 'contactus', outlet: 'popup'},
       {id: 10, title: 'Subscribe', link: 'subscribe', outlet: 'popup'},
@@ -137,35 +134,32 @@ export class InMemoryDataService implements InMemoryDbService {
     {id: 9 , name: 'Cold', weblink: 'company-logo9.png', logo: 'company-logo9.png'},
 ];
 const feedbacks = [
-  {id: 1 , name: 'Luis Vilca', userimage: 'user-1.jpg',
-  comments: 'Una manera muy divertida de viajar',
-  company: 'Trujillo'},
-  {id: 2 , name: 'Valeria Zegarra', userimage: 'user-2.jpg',
-  comments: 'Los mejores lugares para divertirse',
-  company: 'Mancora'},
-  {id: 3 , name: 'Rodrigo Lozano', userimage: 'user-3.jpg',
-  comments: 'Una gran experiencia interactiva con los lugares Turisticos',
-  company: 'Cusco'},
+  {id: 1 , name: 'Laguna de Salinas', userimage: 'user-1.jpg',
+  comments: 'Esta laguna es explotada desde tiempos inmemorables, por los indiginas de los pueblos vecinos y en especial por los del ubinas, en procura del cloruro de sodio(sal) que se destino al arte culinario de los departamentos del sur',
+  company: 'Arequipa'},
+  {id: 2 , name: 'Arequipa y el cañon del Colca', userimage: 'user-2.jpg',
+  comments: 'La actividad principal en esta zona es ver el vuelo de los condores, el ave no marina más grande del mundo y lo que alcanza mayor altura',
+  company: 'Arequipa'},
+  {id: 3 , name: 'Iquitos', userimage: 'user-3.jpg',
+  comments: 'Quienes disfrutan del esotaurismo en esta zona suelen ser del tipo aventurero y curioso, que soporta altas y humedas temperaturas, insectos molestos y comida exotica',
+  company: 'Selva'},
 ];
 
 const plans = [
-  {id: 1, title: 'TUKI mochilero', subtitle: 'Basic choice',
-  description: 'TUKI plan inicial', price: '400', currency: '₹',
-  downloads: '5 Downloads', extensions: '2 Extensions',
-  tutorials: 'Tutorials', support: 'Forum Support', updates: '1 year free updates',
-  buttontext: 'Buy Now', buttonlink: '#', featured: false
+  {id: 1, title: 'Kuelap, Amazonas', subtitle: 'Descuento',
+  description: 'TUKI plan inicial', price: '20', currency: '%',
+  downloads: 'Fue construido por la cultura Chachapoyas(80 d.c al 1470 d.c) pero posteriormente fue ocupado por los incas. Está ubicado sobre la cima de la colina Barreta, en los Andes nor orientes del Peru, en la region Amazonas',
+  buttontext: 'Ver Detalles', buttonlink: '#', featured: false
   },
-  {id: 2, title: 'TUKI Aventurero', subtitle: 'Most popular choice',
-  description: 'TUKI plan medio', price: '800', currency: 's/',
-  downloads: '15 Downloads', extensions: '5 Extensions',
-  tutorials: 'Tutorials with files', support: 'Forum Support', updates: '2 year free updates',
-  buttontext: 'Buy Now', buttonlink: '#', featured: true
+  {id: 2, title: 'Lineas de Nazca', subtitle: 'Descuento',
+  description: 'TUKI plan medio', price: '40', currency: '%',
+  downloads: 'Las lineas de Nazca son un grupo de antiguos geoglifos grabados en la arena del desierto. Estan ubicados en el valle de Nazca, valle de Palpa y en el desierto de Jumana ', 
+  buttontext: 'Ver Detalles', buttonlink: '#', featured: true
   },
-  {id: 3, title: 'TUKI conquistador', subtitle: 'Companies choice',
-  description: 'TUKI Dominador', price: '1200', currency: '₹',
-  downloads: 'Unlimited Downloads', extensions: 'Unlimited Downloads',
-  tutorials: 'HD Video Tutorials', support: 'Chat Support', updates: 'Lifetime free updates',
-  buttontext: 'Buy Now', buttonlink: '#', featured: false
+  {id: 3, title: 'Islas Ballestas', subtitle: 'Descuento',
+  description: 'TUKI Dominador', price: '30', currency: '%',
+  downloads: 'estas islas son el hogar de miles de aves guaneras y especies marinas: Lobos Marinos, pinguinos de humboldt, pelicanos, leones marinos',
+  buttontext: 'Ver Detalles', buttonlink: '#', featured: false
   }
 ];
 
