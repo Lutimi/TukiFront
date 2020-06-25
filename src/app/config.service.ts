@@ -66,7 +66,6 @@ export class ConfigService {
       url = `api/${database}/${id}`;
     } else {
       url = `api/${database}`;
-      console.log(database);
     }
 
     return this.http.get<any>(url).pipe(
