@@ -88,9 +88,9 @@ export class InMemoryDataService implements InMemoryDbService {
       {id: 1, title: 'Home', link: '/home', outlet: ''},
       {id: 2, title: 'About', link: '/about', outlet: ''},
       {id: 3, title: 'Retos', link: '/services', outlet: ''},
-     
+      {id: 4, title: 'Gallery', link: '/gallery', outlet: ''},
       {id: 5, title: 'Destinos', link: '/testimonials', outlet: ''},
-     
+      {id: 6, title: 'Clients', link: '/clients', outlet: ''},
       {id: 7, title: 'Descuentos', link: '/pricing', outlet: ''},
       {id: 8, title: 'Blog', link: '/blog', outlet: ''},
       {id: 9, title: 'Contact Us', link: 'contactus', outlet: 'popup'},
