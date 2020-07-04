@@ -9,8 +9,9 @@ export class InMemoryDataService implements InMemoryDbService {
   constructor() { }
   createDb() {
     const users = [
-      { id: 11, firstName: 'Juan', lastName: 'Perez', email: 'test123@gmail.com', password: 'welcome',
-    bio: 'this is my bio', role: 'admin', image: 'user-1.jpg' },
+      { id: 11, firstName: 'Frank', lastName: 'Popovic', email: 'test123@gmail.com',   password: 'welcome',
+    bio: 'Explorador, aventurero esas son las palabras que me definen, me apasioona viajar por el mundo conociendo nuevas culturas y lugares. Soy abierto a conocer a todos, Conoceme más en la red de tuki.   Mi numero:+51989302415 Facebook: @Frankpopovic  Instagram: @Frank.Popo.vic'
+        , role: 'admin', image: 'user-4.jpg' },
       { id: 12, firstName: 'rohan', lastName: 'gupta', email: 'test345@gmail.com', password: 'welcome',
       bio: 'i am a subscriber', role: 'subscriber', image: 'user-2.jpg' }
     ];
@@ -52,9 +53,9 @@ export class InMemoryDataService implements InMemoryDbService {
         developerlink: 'http://admister.in',
       },
       {id: 'blog',
-        tagline: 'My thoughts',
-        title: 'Thoughts become things',
-        description: 'We are and amazing company',
+        tagline: '2019',
+        title: 'Mis viajes / Rutas recorridas ',
+        description: 'Grande caminos por recorrer',
       },
       {id: 'header',
         heading: 'AdMister Studios',
@@ -88,36 +89,23 @@ export class InMemoryDataService implements InMemoryDbService {
       {id: 1, title: 'Home', link: '/home', outlet: ''},
       {id: 2, title: 'About', link: '/about', outlet: ''},
       {id: 3, title: 'Retos', link: '/services', outlet: ''},
+
       {id: 5, title: 'Destinos', link: '/testimonials', outlet: ''},
+
       {id: 7, title: 'Descuentos', link: '/pricing', outlet: ''},
-      {id: 8, title: 'Blog', link: '/blog', outlet: ''},
+      {id: 8, title: 'Mis rutas', link: '/blog', outlet: ''},
       {id: 9, title: 'Contact Us', link: 'contactus', outlet: 'popup'},
       {id: 10, title: 'Subscribe', link: 'subscribe', outlet: 'popup'},
     ];
 
     const posts = [
-      {id: 1, title: 'The first Article',
-      author: 'AD', image: 'gallery-image-1.jpg', publishdate: '2018-06-19T07:22Z', excert: 'This is the summary of the article...'},
-      {id: 2, title: 'The second Article',
-      author: 'AD', image: 'gallery-image-2.jpg', publishdate: '2018-06-19T07:22Z', excert: 'This is the summary of the article...'},
-      {id: 3, title: 'The third Article',
-      author: 'AD', image: 'gallery-image-3.jpg', publishdate: '2018-06-19T07:22Z', excert: 'This is the summary of the article...'},
-      {id: 4, title: 'The fourth Article',
-      author: 'AD', image: 'gallery-image-4.jpg', publishdate: '2018-06-19T07:22Z', excert: 'This is the summary of the article...'},
-      {id: 5, title: 'The fifth Article',
-      author: 'AD', image: 'gallery-image-5.jpg', publishdate: '2018-06-19T07:22Z', excert: 'This is the summary of the article...'},
-      {id: 6, title: 'The sixth Article',
-      author: 'AD', image: 'gallery-image-6.jpg', publishdate: '2018-06-19T07:22Z', excert: 'This is the summary of the article...'},
-      {id: 7, title: 'The seven Article',
-      author: 'AD', image: 'gallery-image-1.jpg', publishdate: '2018-06-19T07:22Z', excert: 'This is the summary of the article...'},
-      {id: 8, title: 'The eight Article',
-      author: 'AD', image: 'gallery-image-3.jpg', publishdate: '2018-06-19T07:22Z', excert: 'This is the summary of the article...'},
-      {id: 9, title: 'The nine Article',
-      author: 'AD', image: 'gallery-image-5.jpg', publishdate: '2018-06-19T07:22Z', excert: 'This is the summary of the article...'},
-      {id: 10, title: 'The ten Article',
-      author: 'AD', image: 'gallery-image-2.jpg', publishdate: '2018-06-19T07:22Z', excert: 'This is the summary of the article...'},
-      {id: 11, title: 'The eleven Article',
-      author: 'AD', image: 'gallery-image-6.jpg', publishdate: '2018-06-19T07:22Z', excert: 'This is the summary of the article...'},
+      {id: 1, title: 'Machu Pichu',
+      author: 'Frank Popovic', image: 'machupichu.jpg', publishdate: '2019-06-19T07:22Z', excert: 'Una cultura increible, recorri el camino inca sobre el cual muchas personas me hablaban...'},
+      {id: 2, title: 'Mexico',
+      author: 'Frank Popovic', image: 'mexico.jpeg', publishdate: '2019-08-25T07:22Z', excert: 'Llegamos a CDMX el día 1 y alijamos en un depto alquilado por 20 días. Primero visitamos el Museo de Antropología de CDMX, lo cual fue un estupendo inicio porque ahí aprndeimos mucho sobre las culturas pre-hispánicas. Luego el Castillo de Chapultepec, donde aprendimos mocho sobre la historia de los Estados Unidos Mexicanos, luego el Zócalo y el centgro histórico, salimos de CDMX para visitar un Santuario de Mariposas Monarca,viajamos a Puebla, San Miguel de Allende, Guanajuato y Taxco. En los ultimos días, recorrimos los murales de Diego Rivera, Orozco y Sequeira, visitamos la Casa Azul de Frida Kahlo y navegamos los canales de Xochimilco.'},
+      {id: 3, title: 'San Francisco',
+      author: 'Frank Popovic', image: 'sanfrancisco.jpg', publishdate: '2019-10-05T07:22Z', excert: 'Como viaje se lo recomiendo a todo el mundo. Una ruta imprescindible para recorrer California y ver desde grandes ciudades con LA o la increible San Francisco, hasta paisajes inolvidables como el Gran Cañon o Monument Valley. Lo disfrutamos sin duda.'},
+
   ];
 
   const companies = [
@@ -213,7 +201,7 @@ getArticles(reqInfo: RequestInfo) {
   });
 }
 
-/*
+
   post(reqInfo: RequestInfo) {
 
     if (reqInfo.id === 'login') {
@@ -261,6 +249,6 @@ getArticles(reqInfo: RequestInfo) {
       reqInfo.id = null;
       console.log(' from signup');
     }
-  }*/
+  }
 
 }
