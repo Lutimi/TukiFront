@@ -8,7 +8,7 @@ import {Observable} from 'rxjs';
 export class LoginService {
 
   httpOptions = {headers: new HttpHeaders({'Content-Type': 'application/json'})};
-  urlBackend = 'http://localhost:8080'
+  urlBackend = 'https://tukifinal.herokuapp.com'
 
   constructor(private http: HttpClient) {
   }

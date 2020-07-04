@@ -11,9 +11,12 @@
       "schematics": {},
       "architect": {
         "build": {
+          "showCircularDependencies": false,
           "builder": "@angular-devkit/build-angular:browser",
-          "options": {
-            "outputPath": "C:/xampp/htdocs/website",
+          "options":
+          {
+            "showCircularDependencies": false,
+            "outputPath": "dist",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",

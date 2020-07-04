@@ -28,6 +28,10 @@ export class SignupComponent implements OnInit {
 
   }
 
+  buildForm(){
+
+  }
+
   signup(formData: NgForm) {
     return this.auth.signup(formData).subscribe(
       (user) => {
