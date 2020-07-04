@@ -39,7 +39,7 @@ export class LoginComponent implements OnInit {
       },
       {
         id: 2, firstName: 'rohan', lastName: 'gupta', email: 'test345@gmail.com', password: 'welcome',
-        bio: 'i am a subscriber', role: 'subscriber', image: 'user-4.jpg'
+        bio: 'Me gusta viajar mucho y sobre todo si lo hago con mis seres queridos', role: 'subscriber', image: 'user-4.jpg'
       },
       {
         id: 3, firstName: 'Frank', lastName: 'Popovic', email: 'test123@gmail.com', password: 'welcome',

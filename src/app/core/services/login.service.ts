@@ -8,7 +8,7 @@ import {Observable} from 'rxjs';
 export class LoginService {
 
   httpOptions = {headers: new HttpHeaders({'Content-Type': 'application/json'})};
-  urlBackend = 'https://tukifinal.herokuapp.com'
+  urlBackend = 'http://localhost:8080'
 
   constructor(private http: HttpClient) {
   }
@@ -16,6 +16,12 @@ export class LoginService {
   login(paramaters): Observable<Object> {
     return this.http.post<Object[]>(
       this.urlBackend +'/api/v1/login', paramaters, this.httpOptions
+    );
+  }
+
+  createUser(paramaters): Observable<Object> {
+    return this.http.post<Object[]>(
+      this.urlBackend +'/api/v1//users', paramaters, this.httpOptions
     );
   }
 }
