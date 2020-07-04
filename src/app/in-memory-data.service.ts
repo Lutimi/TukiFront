@@ -71,7 +71,7 @@ export class InMemoryDataService implements InMemoryDbService {
       description: 'Tuki es la primer APP que te premia por salir de casa'},
       {id: 2, icon: 'bolt', title: 'Full Descuentos',
       description: 'Desbloquea promociones o precios especiales en locales, restaurantes y tiendas de todo el pais!'},
-     
+
   ];
 
   const images = [
@@ -88,9 +88,7 @@ export class InMemoryDataService implements InMemoryDbService {
       {id: 1, title: 'Home', link: '/home', outlet: ''},
       {id: 2, title: 'About', link: '/about', outlet: ''},
       {id: 3, title: 'Retos', link: '/services', outlet: ''},
-      {id: 4, title: 'Gallery', link: '/gallery', outlet: ''},
       {id: 5, title: 'Destinos', link: '/testimonials', outlet: ''},
-      {id: 6, title: 'Clients', link: '/clients', outlet: ''},
       {id: 7, title: 'Descuentos', link: '/pricing', outlet: ''},
       {id: 8, title: 'Blog', link: '/blog', outlet: ''},
       {id: 9, title: 'Contact Us', link: 'contactus', outlet: 'popup'},
@@ -153,7 +151,7 @@ const plans = [
   },
   {id: 2, title: 'Lineas de Nazca', subtitle: 'Descuento',
   description: 'TUKI plan medio', price: '40', currency: '%',
-  downloads: 'Las lineas de Nazca son un grupo de antiguos geoglifos grabados en la arena del desierto. Estan ubicados en el valle de Nazca, valle de Palpa y en el desierto de Jumana ', 
+  downloads: 'Las lineas de Nazca son un grupo de antiguos geoglifos grabados en la arena del desierto. Estan ubicados en el valle de Nazca, valle de Palpa y en el desierto de Jumana ',
   buttontext: 'Ver Detalles', buttonlink: '#', featured: true
   },
   {id: 3, title: 'Islas Ballestas', subtitle: 'Descuento',
@@ -215,7 +213,7 @@ getArticles(reqInfo: RequestInfo) {
   });
 }
 
-
+/*
   post(reqInfo: RequestInfo) {
 
     if (reqInfo.id === 'login') {
@@ -263,6 +261,6 @@ getArticles(reqInfo: RequestInfo) {
       reqInfo.id = null;
       console.log(' from signup');
     }
-  }
+  }*/
 
 }
